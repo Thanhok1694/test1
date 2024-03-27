@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Quản lý">
+            <menu>
+                <item
+                    android:id="@+id/nav_Phieumuon"
+                    android:title="Quản lý phiếu mượn"
+                    android:icon="@drawable/baseline_assignment_24"
+                    />
+                <item
+                    android:id="@+id/nav_Loaisach"
+                    android:title="Quản lý loại sách"
+                    android:icon="@drawable/baseline_ballot_24"
+                    />
+                <item
+                    android:id="@+id/nav_Sach"
+                    android:title="Quản lý sách"
+                    android:icon="@drawable/baseline_backup_table_24"
+                    />
+                <item
+                    android:id="@+id/nav_Thanhvien"
+                    android:title="Quản lý thành viên"
+                    android:icon="@drawable/baseline_assignment_ind_24"
+                    />
+            </menu>
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+<item android:title="Thống kê">
+    <menu>
+
+        <item
+            android:id="@+id/nav_Top10"
+            android:title="Top 10 sách mượn nhiều nhất"
+            android:icon="@drawable/img_8"
+            />
+        <item
+            android:id="@+id/nav_Doanhthu"
+            android:title="Doanh thu"
+            android:icon="@drawable/baseline_attach_money_24"
+            />
+    </menu>
+</item>
+
+    </group>
+    <group android:checkableBehavior="single">
+<item
+    android:title="Bảo mật"
+    >
+    <menu>
+        <item
+            android:id="@+id/nav_Themnguoidung"
+            android:title="Thêm người dùng"
+            android:visible="false"
+            android:icon="@drawable/baseline_add_circle_outline_24"
+            />
+        <item
+            android:id="@+id/nav_Doimatkhau"
+            android:title="Đổi mật khẩu"
+            android:icon="@drawable/baseline_admin_panel_settings_24"
+            />
+        <item
+            android:id="@+id/nav_Dangxuat"
+            android:title="Đăng xuất"
+            android:icon="@drawable/baseline_arrow_circle_left_24"
+            />
+    </menu>
+</item>
+
+
+
+    </group>
+</menu>

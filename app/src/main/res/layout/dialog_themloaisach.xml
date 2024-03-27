@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Mã loại sách" />
+
+    <EditText
+        android:id="@+id/ed_maloaisach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Mã loại sách" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Tên loại sách" />
+
+    <EditText
+        android:id="@+id/ed_tenloaisach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập tên loại sách" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_luu_loaisach"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#979696"
+            android:text="Lưu" />
+
+        <Button
+            android:id="@+id/btn_cancel_loaisach"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8F8E8E"
+            android:layout_marginLeft="20dp"
+            android:text="Hủy" />
+    </LinearLayout>
+</LinearLayout>

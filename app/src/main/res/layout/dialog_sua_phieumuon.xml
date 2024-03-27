@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ed_sua_maphieumuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Mã phiếu mượn" />
+
+
+
+    <Spinner
+        android:id="@+id/spinner_sua_thanhvien_phieumuon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_sua_sach_phieumuon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/tv_sua_tienthue"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tiền thuê: " />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_sua_ngaythue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Ngày thuê: " />
+        <EditText
+            android:id="@+id/ed_sua_ngaythue"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <CheckBox
+        android:id="@+id/chk_sua_trasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đã trả sách" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sua_phieumuon1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:backgroundTint="#807E7E"/>
+
+        <Button
+            android:id="@+id/btn_cancel_sua_phieumuon"
+            android:layout_width="120dp"
+            android:backgroundTint="#807E7E"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Hủy" />
+    </LinearLayout>
+</LinearLayout>
